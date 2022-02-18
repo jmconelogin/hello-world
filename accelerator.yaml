@@ -4,10 +4,10 @@ accelerator:
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
   tags: []
   options:
-  - name: optionName
-    label: Nice Label
+  - name: options
+    label: Some options
     display: true
-    defaultValue: ""
+    defaultValue: "Red"
 engine:
   include:
   - '**'
