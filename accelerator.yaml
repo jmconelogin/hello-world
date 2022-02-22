@@ -1,5 +1,5 @@
 accelerator:
-  displayName: Python Azure Machine Learning 
+  displayName: CVS Python Azure Machine Learning
   description: A machine learning project in python 3.
    https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-hello-world
   iconUrl: https://github.com/jmconelogin/jmconelogin/blob/main/custom_logoImageFile.png
