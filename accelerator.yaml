@@ -1,13 +1,29 @@
 accelerator:
-  displayName: Angular Web Service with Redis, RabbitMQ, SQL Azure Service-App
-  description: A web application ready for publish to your K8 cluster
-  iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
-  tags: []
+  displayName: Python Azure Machine Learning 
+  description: A machine learning project in python 3.
+   https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-hello-world
+  iconUrl: https://github.com/jmconelogin/jmconelogin/blob/main/custom_logoImageFile.png
+  tags:
+   - ai
+   - ml
+   - azure
   options:
-  - name: options
-    label: Some options
+  - name: workspace
+    label: Workspace name
     display: true
     defaultValue: "Red"
+  - name: subscription
+    label: Subscription
+    display: true
+    defaultValue: ""
+  - name: resourceGroup
+    label: Resource Group
+    display: true
+    defaultValue: ""
+  - name: location
+    label: Location
+    display: true  
+    defaultValue: ""  
 engine:
   include:
   - '**'
