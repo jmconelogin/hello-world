@@ -1,6 +1,6 @@
 accelerator:
-  displayName: marvin-hello-world
-  description: hi
+  displayName: Angular Web Service with Redis, RabbitMQ, SQL Azure Service-App
+  description: A web application ready for publish to your K8 cluster
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
   tags: []
   options:
